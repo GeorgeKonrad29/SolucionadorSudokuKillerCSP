@@ -253,10 +253,10 @@ def forward_checking(valores, restricciones, restriccionesSum, verbose=False):
 def main():
     valores = inicializar_valores()
     restricciones = crear_restricciones()
-    archivo_sumatoria = "KL5BBDBOsum"
+    archivo_sumatoria = "KL5UFYBWsum"
     restriccionesSum = cargar_restricciones_sumatoria(archivo_sumatoria)
     verbose = False
-    if not cargar_tablero(valores, "KL5BBDBO"):
+    if not cargar_tablero(valores, "KL5UFYBW"):
         print("Error: El archivo del tablero no se encontró.")
         exit(1)
 
